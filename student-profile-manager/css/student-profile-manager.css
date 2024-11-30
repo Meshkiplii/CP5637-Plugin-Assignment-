@@ -1,0 +1,102 @@
+/* student-profile-manager.css */
+
+.wrap {
+  margin: 20px 0;
+}
+
+.wrap h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.wrap form {
+  margin-bottom: 20px;
+}
+
+.wrap form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.wrap form input[type="text"],
+.wrap form input[type="email"],
+.wrap form input[type="date"],
+.wrap form textarea,
+.wrap form input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.wrap form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #0073aa;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.wrap form input[type="submit"]:hover {
+  background-color: #005177;
+}
+
+.wrap .error {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+}
+
+.wrap .error ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.wrap .updated {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #c3e6cb;
+  border-radius: 4px;
+}
+
+.spm-frontend-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.spm-frontend-table th,
+.spm-frontend-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.spm-frontend-table th {
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+.spm-frontend-table img {
+  max-width: 100px;
+  height: auto;
+}
+.spm-edit-profile {
+  padding: 10px 20px;
+  background-color: #0073aa;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.spm-edit-profile:hover {
+  background-color: #005177;
+}
